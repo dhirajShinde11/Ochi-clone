@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: a;
+    src: url("./FoundersGrotesk-Semibold.woff");
+
+}
+@font-face {
+    font-family: b;
+    src: url("./NeueMontreal-Regular.woff");
+}
+::selection{
+    background-color: black;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.eyes:hover{
+ cursor: pointer;
+}
+.chotu{
+    transition: all ease .6s;
+}
+.chotu:hover{
+    scale: 5;
+}
